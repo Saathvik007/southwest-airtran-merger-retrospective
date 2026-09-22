@@ -1,0 +1,184 @@
+{
+  "question": "Did WN price its own seats differently on routes where the merger removed AirTran than on comparable WN routes where AirTran never sold tickets?",
+  "outcome": "WN passenger-weighted market fare on the route; no other carrier enters the index",
+  "treated_definition": "WN and FL each with at least 50 sampled passengers in 2009 Q2",
+  "control_definition": "WN and at least one non-FL carrier each with at least 50 sampled passengers, and zero FL tickets, in 2009 Q2",
+  "persistence_rule": "WN fare observed in all 36 quarters",
+  "pools": {
+    "treated": 23,
+    "controls": 137
+  },
+  "pairs": 23,
+  "balance_standardized_difference": {
+    "log_own_fare": -0.19779708744705018,
+    "log_own_passengers": 0.14987133176365156,
+    "log_distance": 0.2380642924034707,
+    "hhi": 0.1336642995809364
+  },
+  "contrasts": {
+    "early_pre": {
+      "n_pairs": 23,
+      "log_difference": 0.009868786108622445,
+      "percent": 0.9917643165938039,
+      "ci_low_percent": -5.2607971328980705,
+      "ci_high_percent": 7.075708873241034
+    },
+    "late_pre": {
+      "n_pairs": 23,
+      "log_difference": 0.05335394803955885,
+      "percent": 5.480292448195092,
+      "ci_low_percent": 1.600112389713801,
+      "ci_high_percent": 9.544786162995601
+    },
+    "base": {
+      "n_pairs": 23,
+      "log_difference": 0.0,
+      "percent": 0.0,
+      "ci_low_percent": 0.0,
+      "ci_high_percent": 0.0
+    },
+    "2011": {
+      "n_pairs": 23,
+      "log_difference": 0.03691816024781063,
+      "percent": 3.760809977348988,
+      "ci_low_percent": 0.2353206510574093,
+      "ci_high_percent": 7.666731408109623
+    },
+    "2012": {
+      "n_pairs": 23,
+      "log_difference": 0.09276185619481364,
+      "percent": 9.720041267181259,
+      "ci_low_percent": 4.860530670524633,
+      "ci_high_percent": 15.126770856727742
+    },
+    "2013": {
+      "n_pairs": 23,
+      "log_difference": 0.1312823977259381,
+      "percent": 14.028975108070105,
+      "ci_low_percent": 8.622798606207835,
+      "ci_high_percent": 20.066947363327557
+    },
+    "2014": {
+      "n_pairs": 23,
+      "log_difference": 0.1238198290886618,
+      "percent": 13.181193304044356,
+      "ci_low_percent": 7.141062991201733,
+      "ci_high_percent": 19.880512780551072
+    },
+    "2015": {
+      "n_pairs": 23,
+      "log_difference": 0.11315301877409409,
+      "percent": 11.980327076301922,
+      "ci_low_percent": 6.666173155459833,
+      "ci_high_percent": 17.865365633386972
+    }
+  },
+  "pretrend_annualized_percent": {
+    "n_pairs": 23,
+    "log_difference": 0.01438382222715978,
+    "percent": 1.448776717535929,
+    "ci_low_percent": -1.4484399291543024,
+    "ci_high_percent": 4.54018346728582
+  },
+  "placebo_early_to_base": {
+    "n_pairs": 23,
+    "log_difference": -0.009868786108622445,
+    "percent": -0.9820249436229016,
+    "ci_low_percent": -6.745888587457167,
+    "ci_high_percent": 5.509644270599218
+  },
+  "alternative_baseline_2015_vs_late_pre": {
+    "n_pairs": 23,
+    "log_difference": 0.05979907073453523,
+    "percent": 6.1623213941118085,
+    "ci_low_percent": 0.597759431788833,
+    "ci_high_percent": 11.870832519908555
+  },
+  "leave_one_route_out_percent": {
+    "min": 10.804017985610557,
+    "max": 12.973734697048592,
+    "min_removed_route": "CMH-FLL",
+    "max_removed_route": "BWI-SEA"
+  },
+  "overlap_definition_sensitivity": {
+    "minority_share_at_least_0.00": {
+      "n_pairs": 23,
+      "log_difference": 0.11315301877409409,
+      "percent": 11.980327076301922,
+      "ci_low_percent": 6.696647364758118,
+      "ci_high_percent": 17.684338321417204
+    },
+    "minority_share_at_least_0.10": {
+      "n_pairs": 19,
+      "log_difference": 0.11308040889011234,
+      "percent": 11.972196492928603,
+      "ci_low_percent": 6.728207466793911,
+      "ci_high_percent": 17.688040552933142
+    },
+    "minority_share_at_least_0.20": {
+      "n_pairs": 13,
+      "log_difference": 0.11317466886209923,
+      "percent": 11.98275148648222,
+      "ci_low_percent": 4.918159604771784,
+      "ci_high_percent": 20.15953266820014
+    }
+  },
+  "geography": {
+    "note": "20 of 23 overlap routes touch a Florida airport against 10 of 137 control candidates, so an unconstrained match compares Florida routes with Western ones.",
+    "treated_touching_florida": 20,
+    "controls_touching_florida": 10,
+    "pairs_agreeing_on_florida": 4,
+    "control_only_placebo_2015": {
+      "florida_controls": {
+        "n_pairs": 10,
+        "log_difference": 0.044344526972653585,
+        "percent": 4.5342441521866945,
+        "ci_low_percent": -1.5449014317417247,
+        "ci_high_percent": 10.806505362703723
+      },
+      "non_florida_controls": {
+        "n_pairs": 127,
+        "log_difference": 0.1888332592900204,
+        "percent": 20.78395396691248,
+        "ci_low_percent": 17.70401736492086,
+        "ci_high_percent": 23.868709113061957
+      },
+      "gap_percent": -13.45353358706673,
+      "implication": "Control-route fares diverged sharply by region with no merger involved. Because treated routes are mostly Florida and matched controls mostly are not, this biases the unconstrained contrast downward."
+    },
+    "stratified_sensitivity": {
+      "pairs": 23,
+      "distinct_controls_used": 8,
+      "balance_standardized_difference": {
+        "log_own_fare": -0.8585113060882079,
+        "log_own_passengers": 0.3339062202243648,
+        "log_distance": -0.21218492026041436,
+        "hhi": -0.25431146278469874
+      },
+      "2015": {
+        "n_pairs": 23,
+        "log_difference": 0.1924992319870104,
+        "percent": 21.227557266369963,
+        "ci_low_percent": 13.949295563359001,
+        "ci_high_percent": 28.732431660789086
+      }
+    }
+  },
+  "florida_exact_sensitivity": {
+    "pairs": 11,
+    "balance_standardized_difference": {
+      "log_own_fare": -0.6766696674558134,
+      "log_own_passengers": 0.27880147810694633,
+      "log_distance": -0.19924620372669655,
+      "hhi": -0.25923562210242773
+    },
+    "2015": {
+      "n_pairs": 11,
+      "log_difference": 0.22690852877424328,
+      "percent": 25.471509236355406,
+      "ci_low_percent": 12.875009507030235,
+      "ci_high_percent": 38.470692855745156
+    }
+  },
+  "interpretation": "This outcome cannot move through carrier mix, and both groups are Southwest routes, so network-wide Southwest shocks difference out. The time-series diagnostics pass: the premerger slope is flat and the early-period placebo is near zero. The MAGNITUDE is not identified. Handling the Florida/West imbalance differently moves the 2015 contrast from about +12% to about +21-25%, and every geographically constrained version leans on eight to eleven reused control routes with poor fare balance. Report the sign and the range, not a point estimate: overlap was not assigned at random, the control routes were also exposed to the merger, and Southwest's own ticket mix changed when it absorbed AirTran."
+}

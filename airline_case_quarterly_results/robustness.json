@@ -1,0 +1,90 @@
+{
+  "all_itinerary_fare_2015": {
+    "main": {
+      "n_pairs": 24,
+      "estimate": 1.8248077263505815,
+      "ci_low": -4.286486441863071,
+      "ci_high": 8.316228964615934
+    },
+    "other_lcc": {
+      "n_pairs": 24,
+      "estimate": 12.535159379272292,
+      "ci_low": 6.126656639855488,
+      "ci_high": 19.10210418075343
+    },
+    "early_pretrend_matched": {
+      "n_pairs": 23,
+      "estimate": -0.024812131143782383,
+      "ci_low": -6.1181428438477345,
+      "ci_high": 6.6668879827296355
+    }
+  },
+  "nonstop_share_2015_percentage_points": {
+    "main": {
+      "n_pairs": 24,
+      "estimate": 4.249920771262202,
+      "ci_low": -0.4470563220034079,
+      "ci_high": 9.729448964942327
+    },
+    "other_lcc": {
+      "n_pairs": 24,
+      "estimate": 0.23503190027479026,
+      "ci_low": -3.240734883433122,
+      "ci_high": 4.731877736332398
+    },
+    "early_pretrend_matched": {
+      "n_pairs": 23,
+      "estimate": 3.492088384310525,
+      "ci_low": -0.7029234698638057,
+      "ci_high": 8.755285205933719
+    }
+  },
+  "direct_fare_replication": {
+    "main": {
+      "n_pairs": 24,
+      "estimate": 1.2819161533294832,
+      "ci_low": -4.966680937354609,
+      "ci_high": 8.08884008946502
+    },
+    "other_lcc": {
+      "n_pairs": 24,
+      "estimate": 14.79818616798958,
+      "ci_low": 7.763398750525489,
+      "ci_high": 22.207747611788758
+    },
+    "early_pretrend_matched": {
+      "n_pairs": 23,
+      "estimate": -0.43372060869866436,
+      "ci_low": -6.69432388329492,
+      "ci_high": 6.5205787114183416
+    }
+  },
+  "all_itinerary_pretrend_annualized": {
+    "main": {
+      "n_pairs": 24,
+      "estimate": 3.386079950835935,
+      "ci_low": 0.9642791039920199,
+      "ci_high": 5.823497434379547
+    },
+    "other_lcc": {
+      "n_pairs": 24,
+      "estimate": 1.8758617954508852,
+      "ci_low": -0.430501180284792,
+      "ci_high": 4.259076694421983
+    },
+    "early_pretrend_matched": {
+      "n_pairs": 23,
+      "estimate": 2.3764716730841653,
+      "ci_low": 0.3622133821746837,
+      "ci_high": 4.438296651783871
+    }
+  },
+  "main_leave_one_out_percent": {
+    "min": -0.27455315185146534,
+    "max": 2.790250872334347,
+    "min_removed_route": "BWI-TPA",
+    "max_removed_route": "IND-LAS",
+    "median_pair_percent": -1.4486000395305367
+  },
+  "interpretation": "All-itinerary fares include nonstop and connecting tickets on the same airport pair. The route influence and nonstop-share checks are descriptive; they do not repair control-group identification."
+}

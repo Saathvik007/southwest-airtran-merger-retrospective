@@ -1,0 +1,161 @@
+{
+  "question": "How much of the headline route-average fare contrast is carrier mix rather than fares?",
+  "outcome_note": "The primary outcome is a passenger-weighted average of carrier fares on a route. The merger removes one carrier from every overlap route by 2015, so the index moves even when no carrier changes its own fare.",
+  "shift_share_decomposition": {
+    "main": {
+      "total": {
+        "n_pairs": 24,
+        "estimate": 1.2819161533294887,
+        "ci_low": -5.02390511462223,
+        "ci_high": 8.010179000607142
+      },
+      "carrier_mix": {
+        "n_pairs": 24,
+        "estimate": 2.009805002705241,
+        "ci_low": -3.323061955798,
+        "ci_high": 7.674364329941187
+      },
+      "within_carrier": {
+        "n_pairs": 24,
+        "estimate": -0.7135479274334943,
+        "ci_low": -8.958608119862145,
+        "ci_high": 7.661627041091693
+      },
+      "mix_share_of_total": 1.5621943745879756
+    },
+    "other_lcc": {
+      "total": {
+        "n_pairs": 24,
+        "estimate": 14.798186167989588,
+        "ci_low": 7.514968240179591,
+        "ci_high": 22.20832863214206
+      },
+      "carrier_mix": {
+        "n_pairs": 24,
+        "estimate": 4.926390663107435,
+        "ci_low": 2.052838714085369,
+        "ci_high": 8.14274377466322
+      },
+      "within_carrier": {
+        "n_pairs": 24,
+        "estimate": 9.408305615484322,
+        "ci_low": 3.1262120600468943,
+        "ci_high": 15.534808000264889
+      },
+      "mix_share_of_total": 0.34845624104292944
+    },
+    "early_pretrend_matched": {
+      "total": {
+        "n_pairs": 23,
+        "estimate": -0.4337206086986567,
+        "ci_low": -6.764123271728241,
+        "ci_high": 6.39432129303317
+      },
+      "carrier_mix": {
+        "n_pairs": 23,
+        "estimate": 2.3319092225142106,
+        "ci_low": -3.2679998848625678,
+        "ci_high": 8.236867362638044
+      },
+      "within_carrier": {
+        "n_pairs": 23,
+        "estimate": -2.7026074781808105,
+        "ci_low": -10.991811010991949,
+        "ci_high": 6.073875764181852
+      },
+      "mix_share_of_total": -5.303259869270049
+    }
+  },
+  "overlap_definition_sensitivity": {
+    "minority_share_at_least_0.00": {
+      "n_pairs": 24,
+      "estimate": 1.2819161533294887,
+      "ci_low": -4.907338506068709,
+      "ci_high": 8.082931601237444,
+      "dropped_routes": []
+    },
+    "minority_share_at_least_0.05": {
+      "n_pairs": 23,
+      "estimate": 2.7902508723343526,
+      "ci_low": -3.0374270267078294,
+      "ci_high": 9.323343516955482,
+      "dropped_routes": [
+        "IND-LAS"
+      ]
+    },
+    "minority_share_at_least_0.10": {
+      "n_pairs": 20,
+      "estimate": 3.875560302300174,
+      "ci_low": -2.5756429766067956,
+      "ci_high": 11.259523125990277,
+      "dropped_routes": [
+        "IND-LAS",
+        "BWI-PBI",
+        "DTW-MCO",
+        "BWI-SEA"
+      ]
+    },
+    "minority_share_at_least_0.15": {
+      "n_pairs": 16,
+      "estimate": 7.485026706935112,
+      "ci_low": 0.6246761756758992,
+      "ci_high": 15.321860138826557,
+      "dropped_routes": [
+        "IND-LAS",
+        "MCO-STL",
+        "BWI-PBI",
+        "FLL-IND",
+        "DTW-MCO",
+        "FLL-PIT",
+        "IAD-MCO",
+        "BWI-SEA"
+      ]
+    },
+    "minority_share_at_least_0.20": {
+      "n_pairs": 13,
+      "estimate": 9.573682133834954,
+      "ci_low": 1.5800147811177656,
+      "ci_high": 18.64134123093152,
+      "dropped_routes": [
+        "IND-LAS",
+        "MCI-MCO",
+        "MCO-STL",
+        "BWI-PBI",
+        "FLL-IND",
+        "DTW-MCO",
+        "BWI-LAX",
+        "PIT-TPA",
+        "FLL-PIT",
+        "IAD-MCO",
+        "BWI-SEA"
+      ]
+    }
+  },
+  "minority_carrier_share_2009Q2": {
+    "IND-LAS": 0.0379,
+    "BWI-RSW": 0.4964,
+    "MCI-MCO": 0.1947,
+    "MDW-RSW": 0.3451,
+    "MCO-STL": 0.1214,
+    "BWI-PBI": 0.0549,
+    "CMH-MCO": 0.2888,
+    "FLL-IND": 0.103,
+    "CMH-FLL": 0.2404,
+    "MCO-MDW": 0.3328,
+    "IND-TPA": 0.404,
+    "MCO-PIT": 0.4025,
+    "DTW-MCO": 0.0545,
+    "BWI-MCO": 0.3732,
+    "BWI-LAX": 0.1758,
+    "PIT-TPA": 0.1663,
+    "FLL-PIT": 0.1281,
+    "IAD-MCO": 0.1184,
+    "BWI-SEA": 0.0682,
+    "BUF-MCO": 0.2066,
+    "IND-MCO": 0.3635,
+    "BWI-FLL": 0.4758,
+    "BWI-TPA": 0.3319,
+    "MCO-PHL": 0.2266
+  },
+  "interpretation": "The carrier-mix component accounts for the whole of the main contrast, and the within-carrier remainder is negative. The contrast also moves several points as the overlap definition tightens, a wider range than the leave-one-route-out check suggests. Neither result identifies a merger effect."
+}

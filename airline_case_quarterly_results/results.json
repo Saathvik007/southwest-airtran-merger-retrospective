@@ -1,0 +1,344 @@
+{
+  "title": "Southwest-AirTran full quarterly overlap-route comparison",
+  "source": "BTS DB1BMarket carrier-ticket records, every quarter 2007Q1-2015Q4",
+  "quarters": 36,
+  "preannouncement_window": [
+    "2009Q3",
+    "2009Q4",
+    "2010Q1",
+    "2010Q2"
+  ],
+  "overlap_candidates_2009Q2": 24,
+  "balanced_overlap_routes": 24,
+  "balanced_control_candidates": {
+    "airtran_only": 106,
+    "other_lcc": 54
+  },
+  "pairs": {
+    "main": 24,
+    "other_lcc": 24,
+    "early_pretrend_matched": 23,
+    "other_lcc_florida_exact": 11
+  },
+  "balance": {
+    "main": {
+      "log_fare": -0.3080972409710782,
+      "log_passengers": 0.17201724996984966,
+      "log_distance": 0.20756712512346548,
+      "hhi": -0.23552973041538594
+    },
+    "other_lcc": {
+      "log_fare": -0.20250565856202993,
+      "log_passengers": -5.462981956369629e-05,
+      "log_distance": 0.7280545218053356,
+      "hhi": 0.01668639279893457
+    },
+    "early_pretrend_matched": {
+      "log_fare": -0.6004177981563661,
+      "log_passengers": 0.26459619237983717,
+      "log_distance": 0.14131344020348266,
+      "hhi": -0.006625356705512313,
+      "early_pre_slope": 0.3607621745177064
+    }
+  },
+  "main": {
+    "early_pre": {
+      "n_pairs": 24,
+      "log_difference": -0.04315404602600053,
+      "percent": -4.223616101074944,
+      "ci_low_percent": -9.778633550292874,
+      "ci_high_percent": 2.1052612987726365
+    },
+    "late_pre": {
+      "n_pairs": 24,
+      "log_difference": -0.0038198674744312766,
+      "percent": -0.38125810613335165,
+      "ci_low_percent": -5.41396796167438,
+      "ci_high_percent": 4.909070500808422
+    },
+    "base": {
+      "n_pairs": 24,
+      "log_difference": 0.0,
+      "percent": 0.0,
+      "ci_low_percent": 0.0,
+      "ci_high_percent": 0.0
+    },
+    "2011": {
+      "n_pairs": 24,
+      "log_difference": 0.049693538541078774,
+      "percent": 5.094897166403265,
+      "ci_low_percent": 1.0047315641932109,
+      "ci_high_percent": 9.492899112442457
+    },
+    "2012": {
+      "n_pairs": 24,
+      "log_difference": 0.06393345299889329,
+      "percent": 6.602145587000953,
+      "ci_low_percent": 1.2318708812897978,
+      "ci_high_percent": 12.112102607785914
+    },
+    "2013": {
+      "n_pairs": 24,
+      "log_difference": 0.08579230331508907,
+      "percent": 8.958000264790268,
+      "ci_low_percent": 3.9630706593530642,
+      "ci_high_percent": 13.946537518654228
+    },
+    "2014": {
+      "n_pairs": 24,
+      "log_difference": 0.04952486362559921,
+      "percent": 5.077171788461727,
+      "ci_low_percent": -0.19443979088932947,
+      "ci_high_percent": 10.818394468020207
+    },
+    "2015": {
+      "n_pairs": 24,
+      "log_difference": 0.01273769159422324,
+      "percent": 1.2819161533294832,
+      "ci_low_percent": -4.872017423971293,
+      "ci_high_percent": 8.087813955062693
+    },
+    "2015_H1": {
+      "n_pairs": 24,
+      "log_difference": 0.01649485632509713,
+      "percent": 1.6631647549915838,
+      "ci_low_percent": -4.627045892627757,
+      "ci_high_percent": 8.273919709033466
+    }
+  },
+  "other_lcc": {
+    "early_pre": {
+      "n_pairs": 24,
+      "log_difference": -0.04724559389375957,
+      "percent": -4.614689167740562,
+      "ci_low_percent": -10.020753322340283,
+      "ci_high_percent": 1.0686031274486556
+    },
+    "late_pre": {
+      "n_pairs": 24,
+      "log_difference": 0.019775294634851337,
+      "percent": 1.9972121066449515,
+      "ci_low_percent": -4.1726836348523175,
+      "ci_high_percent": 8.418749937276587
+    },
+    "base": {
+      "n_pairs": 24,
+      "log_difference": 0.0,
+      "percent": 0.0,
+      "ci_low_percent": 0.0,
+      "ci_high_percent": 0.0
+    },
+    "2011": {
+      "n_pairs": 24,
+      "log_difference": 0.14299427682145283,
+      "percent": 15.372319868325532,
+      "ci_low_percent": 10.462199169911095,
+      "ci_high_percent": 20.040998735518098
+    },
+    "2012": {
+      "n_pairs": 24,
+      "log_difference": 0.1885339042719645,
+      "percent": 20.747802095583875,
+      "ci_low_percent": 15.022598670471805,
+      "ci_high_percent": 26.402806587398874
+    },
+    "2013": {
+      "n_pairs": 24,
+      "log_difference": 0.21484808737381278,
+      "percent": 23.967356059488285,
+      "ci_low_percent": 16.566318217200617,
+      "ci_high_percent": 31.983823842821398
+    },
+    "2014": {
+      "n_pairs": 24,
+      "log_difference": 0.20575434870074116,
+      "percent": 22.845139624553273,
+      "ci_low_percent": 15.281008540732206,
+      "ci_high_percent": 31.13051904910249
+    },
+    "2015": {
+      "n_pairs": 24,
+      "log_difference": 0.1380054978421501,
+      "percent": 14.79818616798958,
+      "ci_low_percent": 7.92896300050524,
+      "ci_high_percent": 22.142579086968116
+    },
+    "2015_H1": {
+      "n_pairs": 24,
+      "log_difference": 0.14502081731630082,
+      "percent": 15.606363615990492,
+      "ci_low_percent": 8.369117955071232,
+      "ci_high_percent": 23.294712838568234
+    }
+  },
+  "other_lcc_florida_exact": {
+    "early_pre": {
+      "n_pairs": 11,
+      "log_difference": 0.015212326853530668,
+      "percent": 1.5328623262341472,
+      "ci_low_percent": -3.7460078941661292,
+      "ci_high_percent": 7.868383019150911
+    },
+    "late_pre": {
+      "n_pairs": 11,
+      "log_difference": 0.026220390314293605,
+      "percent": 2.656716900513995,
+      "ci_low_percent": -3.3287731687731634,
+      "ci_high_percent": 7.62551036858809
+    },
+    "base": {
+      "n_pairs": 11,
+      "log_difference": 0.0,
+      "percent": 0.0,
+      "ci_low_percent": 0.0,
+      "ci_high_percent": 0.0
+    },
+    "2011": {
+      "n_pairs": 11,
+      "log_difference": 0.08044327356376062,
+      "percent": 8.376736663807458,
+      "ci_low_percent": 2.970403659769506,
+      "ci_high_percent": 14.31153385287742
+    },
+    "2012": {
+      "n_pairs": 11,
+      "log_difference": 0.14349205035908438,
+      "percent": 15.429763451892944,
+      "ci_low_percent": 9.561493755449908,
+      "ci_high_percent": 21.60211664123447
+    },
+    "2013": {
+      "n_pairs": 11,
+      "log_difference": 0.17733448503065932,
+      "percent": 19.403041163922875,
+      "ci_low_percent": 12.775246462636092,
+      "ci_high_percent": 27.94405128558181
+    },
+    "2014": {
+      "n_pairs": 11,
+      "log_difference": 0.13123022458279546,
+      "percent": 14.02302601322222,
+      "ci_low_percent": 8.139015540824309,
+      "ci_high_percent": 20.82639700887636
+    },
+    "2015": {
+      "n_pairs": 11,
+      "log_difference": 0.07280702648634403,
+      "percent": 7.552296944140448,
+      "ci_low_percent": -0.2634646480132453,
+      "ci_high_percent": 15.785823046798228
+    },
+    "2015_H1": {
+      "n_pairs": 11,
+      "log_difference": 0.07493014153804843,
+      "percent": 7.780885418577517,
+      "ci_low_percent": 0.6280841103414074,
+      "ci_high_percent": 15.279638250944739
+    }
+  },
+  "early_pretrend_matched": {
+    "early_pre": {
+      "n_pairs": 23,
+      "log_difference": -0.020750921373864913,
+      "percent": -2.0537102538186316,
+      "ci_low_percent": -7.749335009451517,
+      "ci_high_percent": 4.268725163275142
+    },
+    "late_pre": {
+      "n_pairs": 23,
+      "log_difference": -0.008863575047145909,
+      "percent": -0.8824409367239654,
+      "ci_low_percent": -6.3451595736361,
+      "ci_high_percent": 4.821038991195815
+    },
+    "base": {
+      "n_pairs": 23,
+      "log_difference": 0.0,
+      "percent": 0.0,
+      "ci_low_percent": 0.0,
+      "ci_high_percent": 0.0
+    },
+    "2011": {
+      "n_pairs": 23,
+      "log_difference": 0.04088563434848003,
+      "percent": 4.173296026383513,
+      "ci_low_percent": 0.1827980129335822,
+      "ci_high_percent": 8.113299387618964
+    },
+    "2012": {
+      "n_pairs": 23,
+      "log_difference": 0.047056785642035505,
+      "percent": 4.818152905079667,
+      "ci_low_percent": -0.1857711846117362,
+      "ci_high_percent": 10.0693408319104
+    },
+    "2013": {
+      "n_pairs": 23,
+      "log_difference": 0.08014550477961005,
+      "percent": 8.34447025890336,
+      "ci_low_percent": 2.296384292671642,
+      "ci_high_percent": 14.202561043393633
+    },
+    "2014": {
+      "n_pairs": 23,
+      "log_difference": 0.04643088228953404,
+      "percent": 4.75256739900855,
+      "ci_low_percent": -0.4108013149241696,
+      "ci_high_percent": 10.087129772194407
+    },
+    "2015": {
+      "n_pairs": 23,
+      "log_difference": -0.004346639050325507,
+      "percent": -0.43372060869866436,
+      "ci_low_percent": -6.577361605901517,
+      "ci_high_percent": 6.480429563696237
+    },
+    "2015_H1": {
+      "n_pairs": 23,
+      "log_difference": 0.001773345239597051,
+      "percent": 0.17749185461342198,
+      "ci_low_percent": -5.855213643659858,
+      "ci_high_percent": 6.864163226668178
+    }
+  },
+  "early_pretrend_match_holdout_preperiod": {
+    "n_pairs": 23,
+    "log_difference": 0.008863575047145909,
+    "percent": 0.8902972844202313,
+    "ci_low_percent": -4.73583673664698,
+    "ci_high_percent": 6.79878113011901
+  },
+  "placebo_early_to_base": {
+    "n_pairs": 24,
+    "log_difference": 0.04315404602600053,
+    "percent": 4.409872172175784,
+    "ci_low_percent": -1.8679136525925264,
+    "ci_high_percent": 10.778631412817074
+  },
+  "pretrend_annualized_percent": {
+    "n_pairs": 24,
+    "log_difference": 0.028590463218765922,
+    "percent": 2.9003093556142296,
+    "ci_low_percent": 0.21637131130242201,
+    "ci_high_percent": 5.410988292109111
+  },
+  "main_2015_vs_earlier_baseline": {
+    "n_pairs": 24,
+    "log_difference": 0.016557559068654516,
+    "percent": 1.6695395141958054,
+    "ci_low_percent": -4.954259730819976,
+    "ci_high_percent": 8.665887236013573
+  },
+  "market_structure": {
+    "hhi_difference": 0.059204770816194206,
+    "active_carrier_difference": -0.34375,
+    "sampled_passenger_change": {
+      "n_pairs": 24,
+      "log_difference": 0.07609970345325927,
+      "percent": 7.907015581490715,
+      "ci_low_percent": -12.252929854851963,
+      "ci_high_percent": 38.5673288740384
+    }
+  },
+  "interpretation": "Descriptive; check pretrend, comparator sensitivity, and post-survival selection before any causal claim."
+}

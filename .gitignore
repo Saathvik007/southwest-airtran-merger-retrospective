@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+node_modules/
+
+# intermediate files for the Word build
+memo_docx_build/
+
+# raw BTS downloads (several GB); see README for the URL pattern
+db1b_raw/
